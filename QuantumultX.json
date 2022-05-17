@@ -2,8 +2,7 @@
     "name":"Check In",
     "description":"Task Gallery",
     "task":[
-        "5 0,6 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/jd.png",
-        "16 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js, tag=什么值得买_签到, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/smzdm.png",
-        "17 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_mission.js, tag=什么值得买_任务, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/smzdm.png"
+        "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/jd.png",
+        "1 9 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js, tag=什么值得买_签到, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/smzdm.png",
            ]
 }
