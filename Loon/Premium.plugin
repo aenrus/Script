@@ -1,0 +1,6 @@
+[Script]
+hostname = buy.itunes.apple.com
+http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://raw.githubusercontent.com/aenrus/Script/refs/heads/main/Loon/Premium.js, requires-body=true, timeout=60, tag=Premium
+
+[MITM]
+hostname = buy.itunes.apple.com
