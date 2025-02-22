@@ -1,8 +1,0 @@
-{
-    "name":"Check In",
-    "description":"Task Gallery",
-    "task":[
-        "1 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/jd.png, enabled=true",
-        "2 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, tag=什么值得买, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/smzdm.png, enabled=true",
-           ]
-}
