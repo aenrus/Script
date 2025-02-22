@@ -3,4 +3,4 @@ http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=ht
 http-response ^https?:\/\/.*\.(intsig\.net|camscanner\.com) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/CamScanner.js, requires-body=true, timeout=60, tag=CamScanner
 
 [MITM]
-hostname = buy.itunes.apple.com
+hostname = buy.itunes.apple.com, *.camscanner.com, *.intsig.net
