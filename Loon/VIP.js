@@ -1,3 +1,14 @@
+/*************************************
+
+项目名称：iTunes-系列解锁合集
+更新日期：2025-02-09
+脚本作者：@ddm1023
+电报频道：https://t.me/ddm1023
+使用声明：⚠️仅供参考，🈲转载与售卖！
+使用说明：如果脚本无效，请先排除是否脚本冲突
+特别说明：此脚本可能会导致App Store无法登录ID
+解决方法：关[MITM][脚本][代理工具]方法选一即可
+
 **************************************
 
 [rewrite_local]
@@ -17,7 +28,7 @@ const yearlyid = `${bundle_id}.yearly`;
 const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
-const list = { 
+const list = {
   'Pixiu%E8%AE%B0%E8%B4%A6': { cm: 'timea', hx: 'hxpda', id: "com.RuoG.Pixiu.VIPYear", latest: "ddm1023" }  //貔貅记账
 };
 
