@@ -1,3 +1,5 @@
+#!icon=https://github.com/Koolson/Qure/blob/63be653774a6a83cd8e475a7b65f1ed68b9a0093/IconSet/Color/VIP.png
+
 [Script]
 http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://raw.githubusercontent.com/aenrus/Script/refs/heads/main/Loon/iTunes.js, requires-body=true, timeout=60, tag=iTunes
 http-response ^https?:\/\/.*\.(intsig\.net|camscanner\.com) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/CamScanner.js, requires-body=true, timeout=60, tag=CamScanner
