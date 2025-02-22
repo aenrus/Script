@@ -1,8 +1,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/aenrus/Script/main/Loon/VIP.js
-[mitm]
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/aenrus/Script/refs/heads/main/Loon/VIP.js
 hostname = buy.itunes.apple.com
 
 *************************************/
