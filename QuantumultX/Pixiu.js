@@ -1,8 +1,13 @@
+/*************************************
+
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/aenrus/Script/refs/heads/main/QuantumultX/Pixiu.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes.js
 
 [mitm]
 hostname = buy.itunes.apple.com
+
+*************************************/
+
 
 const ddm = JSON.parse($response.body);
 const ua = $request.headers["User-Agent"] || $request.headers["user-agent"];
