@@ -1,5 +1,6 @@
 [rewrite_local]
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/aenrus/Script/refs/heads/main/QuantumultX/Pixiu.js
+
 [mitm]
 hostname = buy.itunes.apple.com
 
