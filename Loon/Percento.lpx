@@ -3,7 +3,7 @@
 
 [Script]
 http-response ^https?:\/\/api\.(revenuecat|rc-backup)\.com\/v1\/(subscribers\/[^\/]+$|receipts$) script-path=https://raw.githubusercontent.com/aenrus/Script/refs/heads/main/Loon/Percento.js, requires-body=true, timeout=60, tag=Percento
-http-request ^https?:\/\/api\.(revenuecat|rc-backup)\.com\/v1\/(subscribers\/[^\/]+$|receipts$) script-path=https://raw.githubusercontent.com/aenrus/Script/refs/heads/main/Loon/Percento.js, tag=Revenuecat清缓存
+http-request ^https?:\/\/api\.(revenuecat|rc-backup)\.com\/v1\/(subscribers\/[^\/]+$|receipts$) script-path=https://raw.githubusercontent.com/aenrus/Script/refs/heads/main/Loon/Percento.js, tag=Clear Cache
 
 [MITM]
 hostname = api.revenuecat.com, api.rc-backup.com
