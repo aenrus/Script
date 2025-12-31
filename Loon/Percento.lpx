@@ -4,4 +4,4 @@
 http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://raw.githubusercontent.com/aenrus/Script/refs/heads/main/QuantumultX/Percento.js, requires-body=true, timeout=60, tag=Percento
 
 [MITM]
-hostname = buy.itunes.apple.com
+hostname = api.revenuecat.com, api.rc-backup.com
